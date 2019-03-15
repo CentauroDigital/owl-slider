@@ -104,7 +104,7 @@ export default class ReactOwlCarousel extends Component<OwlCarouselProps> {
     public render() {
         const {
             className,
-            ...props,
+            ...props
         } = this.propsWithoutOptions;
 
         return (
